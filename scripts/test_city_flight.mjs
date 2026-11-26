@@ -210,7 +210,9 @@ test('pace distance requires its own positive finite value and usable pace',asyn
 });
 
 test('app handlers move the camera, freeze pause, seek, replay, toggle mesh and interrupt on overview',async()=>{
-  const f=await sceneFixture(),e=f.element;
+  // Measure the speed multiplier on a straight section, outside automatic turn slowdown.
+  const base=JSON.parse(await readFile(new URL('../data/route.json',import.meta.url),'utf8'));
+  const f=await sceneFixture({routeData:cornerRoute(base,[[.2,.5],[.8,.5]])}),e=f.element;
   assert.equal(e('buildings').getAttribute('aria-pressed'),'true');
   const mesh=f.scene.getObjectByName('city-buildings');assert(mesh);
   const terrain=f.scene.children.find(o=>o.isGroup).children[0].geometry.attributes.position.array.slice();
