@@ -1,0 +1,62 @@
+{
+  "title": "大武夷超级山径赛 · 高山流水 60K",
+  "subtitle": "2026 Grand Wuyi Trail Race",
+  "routeLabel": "赛事公布 63.13 km · GPX 测距 62.26 km",
+  "madeOn": "2026-11-27",
+  "recordedOn": null,
+  "startName": "武夷广场",
+  "finishName": "武夷广场",
+  "landmarkTitle": "赛道打卡点",
+  "trackSource": "用户提供的赛道 GPX",
+  "statsSource": "赛事报名资料 · 高山流水 60km 组",
+  "stats": {
+    "sourceDistanceKm": 63.13,
+    "gainM": 2777,
+    "lossM": 2777
+  },
+  "imageryZoom": 13,
+  "landmarks": [
+    {
+      "name": "CP1三才峰",
+      "lon": 117.9350785,
+      "lat": 27.6322114,
+      "positionSource": "赛道 GPX 航点"
+    },
+    {
+      "name": "CP2华祥苑三茶体验馆",
+      "lon": 117.9231644,
+      "lat": 27.6653659,
+      "positionSource": "赛道 GPX 航点"
+    },
+    {
+      "name": "CP3石源垄",
+      "lon": 117.9035464,
+      "lat": 27.6704199,
+      "positionSource": "赛道 GPX 航点"
+    },
+    {
+      "name": "CP4下坜坑",
+      "lon": 117.9251629,
+      "lat": 27.7144903,
+      "positionSource": "赛道 GPX 航点"
+    },
+    {
+      "name": "CP5太庙",
+      "lon": 117.9425662,
+      "lat": 27.7023165,
+      "positionSource": "赛道 GPX 航点"
+    },
+    {
+      "name": "CP6水帘洞",
+      "lon": 117.9672056,
+      "lat": 27.6802004,
+      "positionSource": "赛道 GPX 航点"
+    },
+    {
+      "name": "CP7天心永乐禅寺",
+      "lon": 117.9656122,
+      "lat": 27.6723897,
+      "positionSource": "赛道 GPX 航点"
+    }
+  ]
+}
